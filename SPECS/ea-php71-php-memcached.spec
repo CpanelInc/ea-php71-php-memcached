@@ -3,7 +3,7 @@
 %global ext_dir usr/%{_lib}/php/modules
 %global conf_dir etc/php.d
 
-Name: ea-%{scl_version}-php-memcached
+Name: %{scl_version}-php-memcached
 Version: 3.0.2
 Summary: php-memcached extension for %{scl_version}
 Release: 1%{?dist}
