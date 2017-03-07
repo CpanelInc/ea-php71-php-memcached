@@ -6,7 +6,8 @@
 Name: %{scl_version}-php-memcached
 Version: 3.0.2
 Summary: php-memcached extension for %{scl_version}
-Release: 1%{?dist}
+%define release_prefix 1
+Release: %{release_prefix}%{?dist}.cpanel
 License: MIT
 Group: Programming/Languages
 URL: https://pecl.php.net/package/memcached
